@@ -1,0 +1,448 @@
+	    /*
+Theme Name: mimosa theme
+Theme URI: http://mimosaagency.com/theme/
+Author: Danilo Sierra
+Author URI: http://danilosierra.com
+Description: A minimalist, content-focused theme based on the zh2 theme.
+Version: 1
+License URI: http://zenhabits.net/open-source-blogging-feel-free-to-steal-my-content/
+
+This theme is uncopyrighted.
+Do whatever you'd like with it.
+*/
+
+/* css reset */
+
+html, body, div, span, applet, object, iframe,
+h1, h2, h3, h4, h5, h6, p, blockquote, pre,
+a, abbr, acronym, address, big, cite, code,
+del, dfn, em, img, ins, kbd, q, s, samp,
+small, strike, strong, sub, sup, tt, var,
+b, u, i, center,
+dl, dt, dd, ol, ul, li,
+fieldset, form, label, legend,
+table, caption, tbody, tfoot, thead, tr, th, td,
+article, aside, canvas, details, embed, 
+figure, figcaption, footer, header, hgroup, 
+menu, nav, output, ruby, section, summary,
+time, mark, audio, video {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	vertical-align: baseline;
+	letter-spacing: 0px;
+}
+/* HTML5 display-role reset for older browsers */
+article, aside, details, figcaption, figure, 
+footer, header, hgroup, menu, nav, section {
+	display: inline;
+}
+body {
+  line-height: 1;
+  font-family: -apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,Oxygen-Sans,Ubuntu,Cantarell,"Helvetica Neue",sans-serif;
+}
+}
+ol, ul {
+	list-style: none;
+}
+blockquote, q {
+	quotes: none;
+}
+blockquote:before, blockquote:after,
+q:before, q:after {
+	content: '';
+	content: none;
+}
+
+table, th, td {
+font-size: 1.5em;
+line-height: 1.5em;
+}
+
+hr {
+	height: 0px;
+	border-bottom: 3px solid #333;
+	font:0;
+}
+
+}
+/* end css reset */
+
+@media all { 
+	#wp-admin-bar-updates { display: none }
+	body {
+		font-family: -apple-system, BlinkMacSystemFont, san-francisco, roboto, arial, sans-serif;
+		text-align: left;
+	    background-color: #fff;
+	    color: #000;
+	    padding: .6em;
+	    -webkit-font-smoothing: antialiased;
+	}
+	/* fades out blog title */
+
+	}
+	/* fades blog title back in on hover */
+	.top:hover {
+	    -webkit-opacity: 1;
+	    -moz-opacity: 1;
+	    opacity: 1;
+	    -webkit-transition: all 2s ease;
+	    -moz-transition: all 2s ease;
+	    -ms-transition: all 2s ease;
+	    -o-transition: all 2s ease;
+	    transition: all 2s ease;
+	}
+	.container {
+	    overflow: hidden;
+	    padding: 0 1em;
+	    max-width: 60em;
+	    margin: auto;
+	}
+	/* blog title */
+	h1 {
+	    padding-top: 50px;
+	    font-size: 3em;
+	    font-weight: bold;
+	    /*margin: 0 .05em 0 0;*/
+	    text-align: left;
+	}
+	h1 a:link {
+	    text-decoration: underline;
+	    border-width: 0 0 1px 0;
+
+	}
+	h1 a:visited {
+	    text-decoration: underline;
+	}
+	/* post title */
+	h2 {
+	    font-size: 2em;
+	    font-weight: bold;
+	    margin-top: 1em;
+
+	}
+	/* subtitles */
+	h3 {
+	    font-size: 1.8em;
+	    font-weight: bold;
+	    margin-top: 1em;
+	}
+	h4 {
+	    
+	    font-size: 1.5em;
+	    font-weight: bold;
+	    margin-top: 1em;
+	}
+	/* used for "edit" link only visible to site owner/writers */
+	h5 {
+	    font-size: 1.2em;
+	    font-weight: bold;
+	    margin-top: 1em;
+	}
+	/* author credits */
+	h6 {
+	    font-size: 1em;
+	    font-weight: normal;
+	    margin: 1em 0 .5em 0;
+	    margin-top: 1em;
+	    text-align: left;
+	    -webkit-transition: opacity 3s linear;
+	    -moz-transition: opacity 3s linear;
+	    -ms-transition: opacity 3s linear;
+	    -o-transition: opacity 3s linear;
+	    transition: opacity 3s linear;
+	}
+
+	h6 strong {
+	    font-weight: 700;
+	}
+	img {
+	    border: 0;
+	    width: 100%;
+	    height: auto;
+	}
+	img a { border: 0 }
+	p {
+	    line-height: 1.45em;
+	    margin: .7em 0 0 0;
+	  
+	    font-size: 1.3em;
+	    color: #333;
+	    -webkit-font-smoothing: antialiased;
+	}
+
+	/* post styles */
+	.post strong { font-weight: bold }
+	.post a:link {
+	    text-decoration: none;
+	    border-width: 0 0 2px 0;
+	    border-style: none none solid none;
+	}
+	.post ul {
+	    list-style-type: disc;
+	    padding: .1em .0 0 1.1em;
+	    margin-top: .5em;
+	   
+	    font-size: 1.3em;
+	    -webkit-font-smoothing: antialiased;
+	}
+	.post ol {
+	    list-style-type: decimal;
+	    padding: .1em 0 0 1.2em;
+	    margin-top: .5em;
+	   
+	    font-size: 1.3em;
+	    -webkit-font-smoothing: antialiased;
+	}
+	.post li {
+	    line-height: 1.5em;
+	    padding: .2em 0 0 0;
+	    color: #333;
+	}
+	.post li strong { font-weight: bold }
+	.post blockquote {
+	    border-left: 3px solid #000000;
+	    margin: 2em .8em;
+	    padding: 0 1em 0 1em;
+	    color: #555;
+	    font-weight: 700;
+
+	}
+	/* line at bottom of post */
+	.home_bottom {
+	    border-bottom: 3px solid #efefef;
+	    padding-bottom: 10px;
+	    font-size: 2em;
+	    line-height: 2.5em;
+	    color: #dedede;
+	}
+	/* previous & next posts at bottom */
+	.navigation { margin-bottom: 3em }
+	.navigation p {
+	    color: #666;
+	    font-size: 2em;
+	    font-weight: bold;
+	    margin-top: 0;
+	    margin-bottom: 1em;
+	}
+	/* subscription */
+	.subscribe p {
+	    color: #0000FF;
+	    font-size: 1em;
+	    font-weight: bold;
+	    line-height: 2em;
+	    margin-top: 2em;
+	    margin-bottom: 2em;
+	}
+	/* "see all posts" at bottom of home page */
+	.all_posts {
+	    font-size: 2.4em;
+	    font-weight: bold;
+	    height: 1.25em;
+	    line-height: 1.25em;
+	    margin-bottom: 1em;
+	}
+	.all_posts a { color: #b300f9 }
+	.all_posts a:visited { color: #FF0155 }
+	.all_posts a:hover { color: #0000ff }
+	/* footer text */
+	.footer p {
+	    font-size: .8em;
+	    text-transform: lowercase;
+	    color: #333;
+	    padding: 0;
+	    margin: 0;
+	    margin-left: 0;
+	    padding-left: 0;
+	}
+	.footer a { color: #666 }
+	/* for archives page */
+	#arc {
+	    overflow: hidden;
+	    margin: 0 1em 2em .4em;
+	}
+
+ol.commentlist{
+	margin: 10px 5px;
+	padding: 10px;
+}
+.commentlist .comment-body{
+	padding: 10px;
+	background: #EFEFEF;
+	border: solid thin #DEDEDE;
+	margin: 10px 0;
+	position: relative;
+}
+.comment-body a.comment-reply-link{
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	color: #AEAEAE;
+}
+ol.commentlist li{
+	list-style: none;
+}
+ol.commentlist img.avatar{
+	padding: 5px;
+	background: #DEDEDE;
+	border: solid thin #CECECE;
+	float: left;
+	display: block;
+	margin: 15px;
+	width: 32px;
+	height: 32px;
+}
+ol.commentlist .comment-author{
+	line-height: 25px;
+}
+.comment-body cite.fn{
+	font-style: normal;
+}
+.commentmetadata a{
+	margin: 0;
+	font-size: 11px;
+	color: #999;
+}
+.comment-body p{
+	margin: 5px;
+}
+ 
+.comment-body .comment-author.vcard{
+	margin: 0;
+}
+}
+
+
+
+@media print { 
+	body {
+	    font-size: 14px;
+	    background: white;
+	    color: black;
+	    margin: 10;
+	    width: auto;
+	}
+	.container { display: block }
+	.navigation { display: none }
+	.subscribe { display: none }
+	.footer { display: none }
+}
+
+	}
+	/* line at bottom of post */
+	.home_bottom {
+	    border-bottom: 1px solid #efefef;
+	    font-size: 2em;
+	    line-height: 2.5em;
+	    color: #dedede;
+	}
+	/* previous & next posts at bottom */
+	.navigation { margin-bottom: 3em }
+	.navigation p {
+	    color: #666;
+	    font-size: 2em;
+	    font-weight: bold;
+	    margin-top: 0;
+	    margin-bottom: 1em;
+	}
+	/* subscription */
+	.subscribe p {
+	    color: #0000FF;
+	    font-size: 1em;
+	    font-weight: bold;
+	    line-height: 2em;
+	    margin-top: 2em;
+	    margin-bottom: 2em;
+	}
+	/* "see all posts" at bottom of home page */
+	.all_posts {
+	    font-size: 2.4em;
+	    font-weight: bold;
+	    height: 1.25em;
+	    line-height: 1.25em;
+	    margin-bottom: 1em;
+	}
+	.all_posts a { color: #b300f9 }
+	.all_posts a:visited { color: #FF0155 }
+	.all_posts a:hover { color: #0000ff }
+	/* footer text */
+	.footer p {
+	    font-size: .8em;
+	    text-transform: lowercase;
+	    color: #333;
+	    padding: 0;
+	    margin: 0;
+	    margin-left: 0;
+	    padding-left: 0;
+	}
+	.footer a { color: #666 }
+	/* for archives page */
+	#arc {
+	    overflow: hidden;
+	    margin: 0 1em 2em .4em;
+	}
+
+ol.commentlist{
+	margin: 10px 5px;
+	padding: 10px;
+}
+.commentlist .comment-body{
+	padding: 10px;
+	background: #EFEFEF;
+	border: solid thin #DEDEDE;
+	margin: 10px 0;
+	position: relative;
+}
+.comment-body a.comment-reply-link{
+	position: absolute;
+	top: 10px;
+	right: 10px;
+	color: #AEAEAE;
+}
+ol.commentlist li{
+	list-style: none;
+}
+ol.commentlist img.avatar{
+	padding: 5px;
+	background: #DEDEDE;
+	border: solid thin #CECECE;
+	float: left;
+	display: block;
+	margin: 15px;
+	width: 32px;
+	height: 32px;
+}
+ol.commentlist .comment-author{
+	line-height: 25px;
+}
+.comment-body cite.fn{
+	font-style: normal;
+}
+.commentmetadata a{
+	margin: 0;
+	font-size: 11px;
+	color: #999;
+}
+.comment-body p{
+	margin: 5px;
+}
+ 
+.comment-body .comment-author.vcard{
+	margin: 0;
+}
+
+
+@media print { 
+	body {
+	    font-size: 14px;
+	    background: white;
+	    color: black;
+	    margin: 10;
+	    width: auto;
+	}
+	.container { display: block }
+	.navigation { display: none }
+	.subscribe { display: none }
+	.footer { display: none }
+}
