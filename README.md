@@ -1,5 +1,7 @@
 # mimosaminimal theme for wordpress
 
+![demo image](https://github.com/danilosierrac/mimosaminimal/blob/master/mimosaminimal5.png?raw=true)
+
 ### [download theme link](https://github.com/danilosierrac/mimosaminimal/raw/master/mimosaminimal.zip)
 
 *A responsive, fast wordpress theme based on the ZH2 theme*
