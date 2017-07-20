@@ -50,4 +50,6 @@ Note: I, as the original author, don’t offer support for this theme, but if th
 
 *Instructions and text adapted to this template version from the original.* 
 
-#  Feel free to send pull requests to the specific files to make this template a bit more fun. The zip file includes the version I uploaded.
+#  Feel free to send pull requests to the specific files to make this template a bit more fun. The .zip file includes only the version I uploaded.
+
+🖥
