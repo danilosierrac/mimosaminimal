@@ -48,4 +48,6 @@ I tweaked all the styles for fonts, colors, links, etc to make it more readable 
 This template has the ability to have comments into this theme. Just make sure your comments are turned on in the Settings -> Discussion options, and the comments should work. I haven’t tested this extensively, so let me know how it works.
 Note: I, as the original author, don’t offer support for this theme, but if there are problems/questions, you can ask here.
 
-*Text adapted to this template version from the original. Feel free to send pull requests, etc to make this template a bit more fun*
+*Instructions and text adapted to this template version from the original.* 
+
+#Feel free to send pull requests to the specific files to make this template a bit more fun. The zip file includes the version I uploaded.
