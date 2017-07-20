@@ -1,5 +1,7 @@
 # mimosaminimal theme for wordpress
 
+[download link](https://www.google.com)
+
 *A responsive, fast wordpress theme based on the ZH2 theme*
 
 mimosaminimal is a responsive, fast, and minimal theme for wordpress based on the zh2 theme and inspired in our website's simplicity. We made the original zh2 themplate more readable, faster, and up-to-date through the use of system fonts and a bit of CSS
