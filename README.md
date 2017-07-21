@@ -53,3 +53,6 @@ Note: I, as the original author, don’t offer support for this theme, but if th
 #  Feel free to send pull requests to the specific files to make this template a bit more fun. The .zip file includes only the version I uploaded.
 
 🖥
+
+A blog post will look like this:
+![demo image](https://github.com/danilosierrac/mimosaminimal/blob/master/screencapture-localhost-8888-template-editing-post-with-photo-1500552713385.png)
